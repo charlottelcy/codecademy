@@ -25,63 +25,71 @@ const batch = [valid1, valid2, valid3, valid4, valid5, invalid1, invalid2, inval
 
 // Add your functions below:
 const validateCred = array => {
-    let sum = 0;
+  let sum = 0;
 
-    for (let i = array.length - 1; i >= 0; i--) {
-        let number = array[i];
-        if ((array.length - 1 - i) % 2 !== 0) {
-            number *= 2;
-            if (number > 9) {
-                number -= 9;
-            }
-        }
-        sum += number;
+  for (let i = array.length - 1; i >= 0; i--) {
+    let number = array[i];
+    if ((array.length - 1 - i) % 2 !== 0) {
+      number *= 2;
+      if (number > 9) {
+        number -= 9;
+      }
     }
-
-    return sum % 10 === 0;
+    sum += number;
+  }
+  
+  return sum % 10 === 0;
 }
 
-// Test functions:
+// Test function validateCred
+/*
 console.log(validateCred(valid3)); // Should print true
 console.log(validateCred(invalid1)); // Should print false
+*/
 
 const findInvalidCards = nestedArray =>
-    nestedArray.filter(array => !validateCred(array));
+  nestedArray.filter(array => !validateCred(array));
 
-// Test function
+// Test function findInvalidCards
+/*
 console.log(findInvalidCards([valid1, valid2, valid3, valid4, valid5]));// Shouldn't print anything
 console.log(findInvalidCards([invalid1, invalid2, invalid3, invalid4, invalid5])); // Should print all of the numbers
 console.log(findInvalidCards(batch)); // Test what the mystery numbers are
+*/
 
 const idInvalidCardCompanies = nestedArray => {
-    let companies = [];
-    let invalidCardsNested = findInvalidCards(nestedArray);
-    for (let invalidCards of invalidCardsNested) {
-        switch (invalidCards[0]) {
-            case 3:
-                if (!companies.includes("Amex"))
-                    companies.push("Amex");
-                break;
-            case 4:
-                if (!companies.includes("Visa"))
-                    companies.push("Visa");
-                break;
-            case 5:
-                if (!companies.includes("Mastercard"))
-                    companies.push("Mastercard");
-                break;
-            case 6:
-                if (!companies.includes("Discover"))
-                    companies.push("Discover");
-                break;
-            default:
-                console.log('Company not found');
-                break;
-        }
+  let companies = [];
+  let invalidCardsNested = findInvalidCards(nestedArray);
+  for(let invalidCards of invalidCardsNested) {
+    switch(invalidCards[0]) {
+      case 3:
+        if(!companies.includes("Amex"))
+          companies.push("Amex");
+          break;
+      case 4:
+        if(!companies.includes("Visa"))
+          companies.push("Visa");
+          break;
+      case 5:
+        if(!companies.includes("Mastercard"))
+          companies.push("Mastercard");
+          break;
+      case 6:
+        if(!companies.includes("Discover"))
+          companies.push("Discover");
+          break;
+      default:
+        console.log('Company not found');
+        break;
     }
+  }
 
-    return companies;
+  return companies;
 }
+
+// Test function idInvalidCardCompanies
+/*
 console.log(idInvalidCardCompanies([invalid1])); // Should print['visa']
 console.log(idInvalidCardCompanies([invalid2])); // Should print ['mastercard']
 console.log(idInvalidCardCompanies(batch)); // Find out which companies have mailed out invalid cards
+*/
