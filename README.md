@@ -32,7 +32,7 @@ A compilation of tutorials as follows:
 3. Play the game! Guess a number between 0 to 9
 
 You should see this view in your browser after step 2
-![Number Guesser Screenshot](./Images/Number-Guesser-Screenshot.png)
+![Number Guesser Screenshot](./Images/Number-Guesser-Screenshot.PNG)
 
 ### Credit Card Checker
 
@@ -52,7 +52,7 @@ You should see this view in your browser after step 2
 2. Navigate to index.html and open the file in browser
 
 You should see this view in your browser after step 2
-![Hello World Screenshot](./Images/Hello-World-Screenshot.png)
+![Hello World Screenshot](./Images/Hello-World-Screenshot.PNG?raw=true)
 
 ## Acknowledgements
 
