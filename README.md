@@ -34,7 +34,7 @@ A compilation of tutorials as follows:
 3. Play the game! Guess a number between 0 to 9
 
 You should see this view in your browser after step 2
-> ![Number guesser webpage](./Screenshots/Number-Guesser-Screenshot.png)
+> ![Number guesser webpage](./Screenshots/Number-Guesser-Screenshot.PNG)
 
 ### Credit Card Checker
 
@@ -56,7 +56,7 @@ You should see this view in your browser after step 2
 2. Navigate to index.html and open the file in browser
 
 You should see this view in your browser after step 2
-> ![Hello world webpage](./Screenshots/Hello-World-Screenshot.png)
+> ![Hello world webpage](./Screenshots/Hello-World-Screenshot.PNG)
 
 ### Mixed Messages
 
@@ -81,7 +81,7 @@ Fortune Telling Cookie Message:
 2. Navigate to main.html and open the file in browser
 3. You should see this view in your browser after step 2
 
-> ![Dasmoto Arts webpage](./Screenshots/Dasmoto-Screenshot.png)
+> ![Dasmoto Arts webpage](./Screenshots/Dasmoto-Screenshot.PNG)
 
 ## Acknowledgements
 
