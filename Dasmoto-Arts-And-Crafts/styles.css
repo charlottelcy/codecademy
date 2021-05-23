@@ -2,7 +2,12 @@ body {
   font-family: Helvetica;
 }
 
-h1.title-header {
+span {
+  font-weight: bold;
+  color: blue;
+}
+
+.header {
   background-image: url('images/pattern.jpeg');
   font-size: 100px;
   font-weight: bold;
@@ -10,25 +15,20 @@ h1.title-header {
   text-align: center;
 }
 
-.subheading {
+.item h1 {
   font-size: 32px;
   font-weight: bold;
   color: white;
 }
 
-.brushes {
+#brushes {
   background-color: mediumspringgreen;
 }
 
-.frames {
+#frames {
   background-color: lightcoral;
 }
 
-.paint {
+#paint {
   background-color: skyblue;
-}
-
-span {
-  font-weight: bold;
-  color: blue;
 }
