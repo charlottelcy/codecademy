@@ -18,6 +18,7 @@ A compilation of tutorials as follows:
 3. _Mysterious Organism_: Create objects that simulate the DNA of P. aequor organism
 4. _Set Up Development Environment Test_: Testing out the setting up of dev environment
 5. _Mixed Messages_: A message generator program. Every time a user runs a program, they should get a new, randomised output consisting of inspirational message, a joke and  afortune telling cookie message.
+6. _Dasmoto Arts_: A simple mockup website using HTML and CSS.
 
 ## Technologies Used
 
@@ -33,7 +34,7 @@ A compilation of tutorials as follows:
 3. Play the game! Guess a number between 0 to 9
 
 You should see this view in your browser after step 2
-> ![Number Guesser Screenshot](./Images/Number-Guesser-Screenshot.PNG)
+> ![Number guesser webpage](./Screenshots/Number-Guesser-Screenshot.PNG)
 
 ### Credit Card Checker
 
@@ -55,7 +56,7 @@ You should see this view in your browser after step 2
 2. Navigate to index.html and open the file in browser
 
 You should see this view in your browser after step 2
-> ![Hello World Screenshot](./Images/Hello-World-Screenshot.PNG)
+> ![Hello world webpage](./Screenshots/Hello-World-Screenshot.PNG)
 
 ### Mixed Messages
 
@@ -73,6 +74,14 @@ Joke:
 Fortune Telling Cookie Message:
 <Fortune Telling Cookie Message content>
 ```
+
+### Dasmoto Arts
+
+1. Download Dasmoto-Arts-And-Crafts folder
+2. Navigate to main.html and open the file in browser
+3. You should see this view in your browser after step 2
+
+> ![Dasmoto Arts webpage](./Screenshots/Dasmoto-Screenshot.PNG)
 
 ## Acknowledgements
 
