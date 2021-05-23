@@ -81,7 +81,7 @@ Fortune Telling Cookie Message:
 2. Navigate to main.html and open the file in browser
 3. You should see this view in your browser after step 2
 
-> ![Dasmoto Arts webpage](./Screenshots/Dasmoto-Screenshot.PNG)
+> ![Dasmoto Arts webpage](./Screenshots/Dasmoto-Screenshot.png)
 
 ## Acknowledgements
 
