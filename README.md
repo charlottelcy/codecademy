@@ -19,6 +19,7 @@ A compilation of tutorials as follows:
 4. _Set Up Development Environment Test_: Testing out the setting up of dev environment
 5. _Mixed Messages_: A message generator program. Every time a user runs a program, they should get a new, randomised output consisting of inspirational message, a joke and  afortune telling cookie message.
 6. _Dasmoto Arts_: A simple mockup website using HTML and CSS.
+7. _Excursion_: Create a web page which advertises a product called “Excursion” using HTML and CSS.
 
 ## Technologies Used
 
@@ -82,6 +83,14 @@ Fortune Telling Cookie Message:
 3. You should see this view in your browser after step 2
 
 > ![Dasmoto Arts webpage](./Screenshots/Dasmoto-Screenshot.png)
+
+### Excursion
+
+1. Download Excursion folder
+2. Navigate to index.html and open the file in browser
+3. You should see this view in your browser after step 2
+
+> ![Excursion Screenshot](./Screenshots/Excursion-Screenshot.png)
 
 ## Acknowledgements
 
