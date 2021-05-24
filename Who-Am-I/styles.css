@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.header-title {
+  background-image: url('images/black-banner-vector21.png');
+  height: 100px;
+}
+
+.header-title h1 {
+  color: white;
+  position: relative;
+  top: 20px;
+  text-align: center;
+  font-size: 50px;
+}
+
+img[src*="profile"] {
+    height: 300px;
+    width: 250px;
+}
+
+/* .company {
+    font-weight: bold;
+} */
+
+.jobTitle, .fieldOfStudy {
+    font-weight: normal;
+}
