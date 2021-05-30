@@ -21,6 +21,7 @@ A compilation of tutorials as follows:
 6. _Dasmoto Arts_: A simple mockup website using HTML and CSS.
 7. _Excursion_: Create a web page which advertises a product called “Excursion” using HTML and CSS.
 8. _Build A Website Design System_: Build your own basic design system for a website.
+9. _Tea Cozy_: Create a fictional tea shop website using CSS flexbox concepts.
 
 ## Technologies Used
 
@@ -102,6 +103,14 @@ Fortune Telling Cookie Message:
 3. You should see this view in your browser after step 2
 
 > ![Build A Website Design System Screenshot](./Screenshots/Build-A-Website-Design-System-Screenshot.png)
+
+### 9. Tea Cozy
+
+1. Download Tea-Cozy folder
+2. Navigate to index.html and open the file in browser
+3. You should see this view in your browser after step 2
+
+> ![Tea Cozy Screenshot](./Screenshots/Tea-Cozy-Screenshot.png)
 
 ## Acknowledgements
 
