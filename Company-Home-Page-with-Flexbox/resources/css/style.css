@@ -1,0 +1,92 @@
+/* universal */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+main,
+section,
+footer {
+  margin-top: 50px;
+}
+
+/* header */
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  color: black;
+}
+
+p {
+  font-size: 1.25em;
+}
+
+/* main */
+#mission {
+  background-image: url('../images/banner-landingpage.jpg');
+  background-size: cover;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  opacity: 0.9;
+}
+
+.main-content {
+  width: 100%;
+  background-color: white;
+}
+
+/* mobility section */
+.portfolio-items {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.portfolio-items-box {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.portfolio-items img {
+  width: 300px;
+  margin-right: 20px;
+}
+
+/* team section */
+.team-members {
+  background-image: url('../images/banner-landingpage.jpg');
+  opacity: 0.9;
+  display: flex;
+  justify-content: center;
+}
+
+.team-member-box {
+  width: 200px;
+  height: 400px;
+  margin: 0px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.team-members img {
+  width: 200px;
+  height: 200px;
+}
+
+.team-member-box h3,
+.team-member-box p {
+  color: white;
+  margin-bottom: 0;
+}
