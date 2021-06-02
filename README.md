@@ -22,6 +22,7 @@ A compilation of tutorials as follows:
 7. _Excursion_: Create a web page which advertises a product called “Excursion” using HTML and CSS.
 8. _Build A Website Design System_: Build your own basic design system for a website.
 9. _Tea Cozy_: Create a fictional tea shop website using CSS flexbox concepts.
+10. _Company Home Page with Flexbox_: Build a company homepage with flexbox concepts.
 
 ## Technologies Used
 
@@ -111,6 +112,14 @@ Fortune Telling Cookie Message:
 3. You should see this view in your browser after step 2
 
 > ![Tea Cozy Screenshot](./Screenshots/Tea-Cozy-Screenshot.png)
+
+### 10. Company Home Page with Flexbox
+
+1. Download Company-Home-Page-with-Flexbox folder
+2. Navigate to index.html and open the file in browser
+3. You should see this view in your browser after step 2
+
+> ![Company Home Page with Flexbox Screenshot](./Screenshots/Company-Home-Page-with-Flexbox-Screenshot.png)
 
 ## Acknowledgements
 
