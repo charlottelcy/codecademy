@@ -23,6 +23,7 @@ A compilation of tutorials as follows:
 8. _Build A Website Design System_: Build your own basic design system for a website.
 9. _Tea Cozy_: Create a fictional tea shop website using CSS flexbox concepts.
 10. _Company Home Page with Flexbox_: Build a company homepage with flexbox concepts.
+11. _Find Your Hat_: An interactive terminal game.
 
 ## Technologies Used
 
@@ -40,20 +41,20 @@ A compilation of tutorials as follows:
 3. Play the game! Guess a number between 0 to 9
 
 You should see this view in your browser after step 2
-> ![Number guesser webpage](./Screenshots/Number-Guesser-Screenshot.PNG)
+> ![Number guesser webpage](./Media/Screenshots/Number-Guesser-Screenshot.PNG)
 
 ### 2. Credit Card Checker
 
 1. Download Credit-Card-Checker folder
 2. Test each function by removing the commented lines (Remove `/* */` enclosing the lines of codes)
-3. Run main.js file using nodejs in the command prompt with the following command `node main.js`
+3. Run `node main.js` in the terminal
 4. You should see the outputs of each function
 
 ### 3. Mysterious Organism
 
 1. Download Mysterious-Organism folder
 2. Test each function by removing the commented lines (Remove `/* */` enclosing the lines of codes)
-3. Run main.js file using nodejs in the command prompt with the following command `node main.js`
+3. Run `node main.js` in the terminal
 4. You should see the outputs of each function
 
 ### 4. Set Up Development Environment Test
@@ -62,12 +63,12 @@ You should see this view in your browser after step 2
 2. Navigate to index.html and open the file in browser
 
 You should see this view in your browser after step 2
-> ![Hello world webpage](./Screenshots/Hello-World-Screenshot.PNG)
+> ![Hello world webpage](./Media/Screenshots/Hello-World-Screenshot.PNG)
 
 ### 5. Mixed Messages
 
 1. Download Mixed-Messages folder
-2. Run script.js file using nodejs in the command prompt with the following command `node script.js`
+2. Run `node script.js` in the terminal
 3. You should see the expected output in the following order:
 
 ```
@@ -87,7 +88,7 @@ Fortune Telling Cookie Message:
 2. Navigate to main.html and open the file in browser
 3. You should see this view in your browser after step 2
 
-> ![Dasmoto Arts webpage](./Screenshots/Dasmoto-Screenshot.png)
+> ![Dasmoto Arts webpage](./Media/Screenshots/Dasmoto-Screenshot.png)
 
 ### 7. Excursion
 
@@ -103,7 +104,7 @@ Fortune Telling Cookie Message:
 2. Navigate to index.html and open the file in browser
 3. You should see this view in your browser after step 2
 
-> ![Build A Website Design System Screenshot](./Screenshots/Build-A-Website-Design-System-Screenshot.png)
+> ![Build A Website Design System Screenshot](./Media/Screenshots/Build-A-Website-Design-System-Screenshot.png)
 
 ### 9. Tea Cozy
 
@@ -111,7 +112,7 @@ Fortune Telling Cookie Message:
 2. Navigate to index.html and open the file in browser
 3. You should see this view in your browser after step 2
 
-> ![Tea Cozy Screenshot](./Screenshots/Tea-Cozy-Screenshot.png)
+> ![Tea Cozy Screenshot](./Media/Screenshots/Tea-Cozy-Screenshot.png)
 
 ### 10. Company Home Page with Flexbox
 
@@ -119,7 +120,19 @@ Fortune Telling Cookie Message:
 2. Navigate to index.html and open the file in browser
 3. You should see this view in your browser after step 2
 
-> ![Company Home Page with Flexbox Screenshot](./Screenshots/Company-Home-Page-with-Flexbox-Screenshot.png)
+> ![Company Home Page with Flexbox Screenshot](./Media/Screenshots/Company-Home-Page-with-Flexbox-Screenshot.png)
+
+### 11. Find Your Hat
+
+The scenario is that the player has lost their hat in a field full of holes, and they must navigate back to it without falling down one of the holes or stepping outside of the field..
+
+1. Download Find-Your-Hat folder
+2. Make sure you have Node and NPM installed
+3. Run `npm install prompt-sync` in the terminal
+4. Run `node main.js` in the terminal
+5. Play the game!
+
+>![Find Your Hat GIF](./Media/GIF/Find-Your-Hat-GIF.gif)
 
 ## Acknowledgements
 
