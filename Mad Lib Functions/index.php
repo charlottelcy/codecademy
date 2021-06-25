@@ -1,5 +1,5 @@
 <?php
-
+header('Content-type: text/plain');
 // method 1: using variable parsing
 function generateStory1($singular_noun, $verb, $color, $distance_unit) {
   $story = "The ${singular_noun}s are lovely, $color, and deep.\nBut I have promises to keep,\nAnd ${distance_unit}s to go before I $verb,\nAnd ${distance_unit}s to go before I $verb.\n\n";
