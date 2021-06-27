@@ -2,7 +2,7 @@
 
 function magic8Ball() {
   echo "\nWhat is your question?\n";
-  $question = readline(">>");
+  $question = readline(">> ");
   echo "You have asked '$question'...\nAnd here is your answer: ";
 
   $random_num = rand(0, 19);
